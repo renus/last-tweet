@@ -1,5 +1,5 @@
 {
-  "name" : "renus/lastTweet",
+  "name" : "renus/last-tweet",
   "description" : "Symfony 2 bundle to add quickly last tweets on your website",
   "type" : "symfony-bundle",
   "authors" : [{

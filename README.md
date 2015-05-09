@@ -66,7 +66,7 @@ renus_last_tweet:
 
 #Usage
 
-##twig usage 
+##twig usage: 
 
 just add this render command in your twig template (in this example we display the last 3 tweets 
 from the @renus_net account) :
@@ -76,7 +76,8 @@ from the @renus_net account) :
 
 ##controller usage:
 
-you can get the last tweets in an entity Array from the controller with this code: 
+if you want to use it in a controller you can get an entity Array 
+with this code: 
 
 ```php
 <?php
@@ -93,11 +94,10 @@ public function someAction()
 
 #Override template
 
-if you want to custom the render in a twig template usage, you cans specify the path of your 
+if you want to custom the render (in a twig template usage), you cans specify the path of your 
 override template in the app/config/config.yml :
 
 ##config
-<pre>
 ```yml
 # app/config/config.yml
 renus_last_tweet:
@@ -109,19 +109,19 @@ renus_last_tweet:
     template:
         path: "path/of/custom/template/tweet.html.twig"
 ```
-</pre>
+
 
 ##template
 
 you can use the "tweets" entitties Array like this :
 
-<pre>
+```twig
 {% for tweet in tweets %}
     <dl>
         <dt>{{ tweet.getDate() }}</dt>
         <dd>{{ tweet.getFormatText() | raw }}</dd>
     </dl>
 {% endfor %}
-</pre>
+```
 
 to see all the 'tweet' parameters open the Entity/Tweet.php

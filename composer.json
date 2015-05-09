@@ -17,15 +17,15 @@
   },
   "autoload" : {
     "psr-0" : {
-      "Renus\\MediaBundle" : ""
+      "Renus\\LastTweetBundle" : ""
     }
   },
-  "target-dir" : "",
+  "target-dir" : "Renus/LastTweetBundle",
   "repositories" : [{
   }],
   "extra" : {
     "branch-alias" : {
-      "dev-master" : "0.3-dev"
+      "dev-master" : "1.0-dev"
     }
   }
 }

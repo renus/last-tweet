@@ -1,0 +1,24 @@
+Renus\LastTweetBundle\Entity\Tweet:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        text:
+            type: text
+        source:
+            type: text
+        name:
+            type: string
+            length: 255
+        screen:
+            type: string
+            length: 255
+        date:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

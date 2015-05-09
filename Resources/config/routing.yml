@@ -1,0 +1,3 @@
+renus_last_tweet:
+    path:     /twitter/last/{screen}/{number}
+    defaults: { _controller: RenusLastTweetBundle:Twitter:last }

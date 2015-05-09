@@ -1,0 +1,31 @@
+{
+  "name" : "renus/lastTweet",
+  "description" : "Symfony 2 bundle to add quickly last tweets on your website",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Renaud Mioque",
+    "email" : "renaud.mioque@gmail.com"
+  }],
+  "keywords" : [
+    "Symfony 2 tweets twitter last tweets"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+    "abraham/twitteroauth": "^0.5.3"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Renus\\MediaBundle" : ""
+    }
+  },
+  "target-dir" : "",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "0.3-dev"
+    }
+  }
+}

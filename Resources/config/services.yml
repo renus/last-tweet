@@ -1,0 +1,5 @@
+services:
+
+    renus.twitter:
+        class: Renus\LastTweetBundle\Service\Twitter
+        arguments: [ '%consumer_key%','%consumer_secret%','%token%','%token_secret%' ]

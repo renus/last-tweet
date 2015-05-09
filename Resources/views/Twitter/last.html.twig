@@ -1,0 +1,6 @@
+{% for tweet in tweets %}
+    <dl>
+        <dt>{{ tweet.getDate() }}</dt>
+        <dd>{{ tweet.getFormatText() | raw }}</dd>
+    </dl>
+{% endfor %}

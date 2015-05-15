@@ -32,6 +32,11 @@ class Tweet
      */
     private $screen;
 
+    /**
+     * @var string
+     */
+    private $date;
+
 
     /**
      * Get id

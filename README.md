@@ -51,6 +51,7 @@ first you must create an twitter application  on https://apps.twitter.com/ ,and 
 
 ##parameters
 
+### 1.config file
 you must add your twitter api parameters in app/config/config.yml, the required parameters must be added like this :
 
 ```yml
@@ -61,6 +62,16 @@ renus_last_tweet:
         consumer_secret: "your_application_secret_key"
         token: "your_application_token"
         token_secret: "your_application_token_secret"
+```
+
+
+### 2. routing file
+
+```yml
+# app/config/routing.yml
+renus_last_tweet:
+    resource: "@RenusLastTweetBundle/Resources/config/routing.yml"
+    prefix:   /
 ```
 
 

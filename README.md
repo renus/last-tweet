@@ -11,23 +11,23 @@ when you install RenusLastTweetBundle for symfony, this dependency will be add :
 
 ## installation
     
-1. Add this bundle to your project in composer.json:
+### 1. Add this bundle to your project in composer.json:
     
 <pre>
 {
     "require": {
-        "renus/lastTweet": "1.*",
+        "renus/last-tweet": "1.*",
     }
 }
 </pre>
 
-2. Install with composer
+### 2. OR Install with composer
 
 <pre>
-composer.phar require renus/lastTweet dev-master
+composer.phar require renus/last-tweet dev-master
 </pre>
 
-3. Register the bundle
+### 3. Register the bundle
 
 
 ```php
